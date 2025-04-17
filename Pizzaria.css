@@ -1,0 +1,189 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #f8eeee;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+h1, h2, h3, p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+  }
+
+header {
+    background: #000000;
+    color: #EFE5DA;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 15px;
+}
+
+nav ul li a {
+    color: #C84C05;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 10px 0;
+}
+
+#secao1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    background: #000000;
+    margin: 0;
+    margin-left: 10px;
+    padding: 0;
+    height: 102vh;
+    background-size: cover;
+    width: 100%;
+}
+
+.letter h1, .letter p {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    z-index: 2;
+    font-size: 2em;
+  }
+  
+  .seção1 p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em; /* Tamanho do parágrafo */
+    margin-top: 20px;
+  }
+#secao2 {
+    background: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 40px;
+}
+
+.receita {
+    background-color: #f7d9bd;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease-in-out;
+}
+
+.receita img {
+    width: 250px;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+ul,
+ol {
+    margin-left: 20px;
+}
+
+
+
+
+#secao3 {
+    background: #DDA67B;
+    background-color: #e9a072;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    border-radius: 20px;
+    margin: 2%;
+
+}
+
+
+
+#secao4 {
+    background: #E7A87E;
+    ;
+}
+
+#secao4 h2 {
+    color: #C84C05;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+#secao4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+form label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    color: #8a5a3b;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+form button {
+    background-color: #C84C05;
+    color: #ddcabe;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+form button:hover {
+    background-color: #632b0d;
+}
+
+
+
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #8A6B5C;
+    position: relative;
+}
+
+.botao {
+    background-color: #9e501f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+}
+
+button:hover {
+    background-color: #753b1a;
+}
