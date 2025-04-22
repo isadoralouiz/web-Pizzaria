@@ -1,7 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    color: #f8eeee;
     font-size: 18px;
     line-height: 1.6;
     margin: 0;
@@ -53,10 +52,10 @@ section {
     padding: 0;
     height: 102vh;
     background-size: cover;
-    width: 100%;
+    width: 100%; 
 }
 
-.letter h1, .letter p {
+.letter h1, .letter p, .letter h2{
     font-family: 'Montserrat', sans-serif;
     position: absolute;
     top: 50%;
@@ -71,8 +70,9 @@ section {
   
   .seção1 p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.2em; /* Tamanho do parágrafo */
+    font-size: 1.2em; 
     margin-top: 20px;
+
   }
 #secao2 {
     background: #ffffff;
@@ -82,45 +82,49 @@ section {
     padding: 40px;
 }
 
-.receita {
-    background-color: #f7d9bd;
-    border-radius: 20px;
+.cardapio {
+    background-color: #e2ac77;
+    border-radius: 0px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
     transition: transform 0.2s ease-in-out;
+    text-align: center;
 }
 
-.receita img {
+.cardapio img {
     width: 250px;
     height: auto;
     border-radius: 12px;
     margin-bottom: 10px;
 }
 
-ul,
-ol {
-    margin-left: 20px;
-}
+.cardapio-menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    width: 50%;
+    text-align: center;
+  }
+
+  .cardapio h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
 
 
 
 
 #secao3 {
-    background: #DDA67B;
-    background-color: #e9a072;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 100px;
-    border-radius: 20px;
+    background: #ffffff;
+    background-color: #ffffff;
     margin: 2%;
-
 }
 
 
-
 #secao4 {
-    background: #E7A87E;
-    ;
+    background: #ffffff;
+    
 }
 
 #secao4 h2 {
@@ -152,8 +156,8 @@ form textarea {
 }
 
 form button {
-    background-color: #C84C05;
-    color: #ddcabe;
+    background-color: #000000;
+    color: #e6c2ac;
     padding: 12px 24px;
     border: none;
     border-radius: 10px;
@@ -162,10 +166,8 @@ form button {
 }
 
 form button:hover {
-    background-color: #632b0d;
+    background-color: #000000;
 }
-
-
 
 
 footer {
@@ -177,8 +179,8 @@ footer {
 }
 
 .botao {
-    background-color: #9e501f;
-    color: #fff;
+    background-color: #000000;
+    color: #f7aa76;
     padding: 10px 20px;
     border: none;
     border-radius: 12px;
