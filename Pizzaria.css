@@ -8,10 +8,10 @@ body {
     background-color: #000000;
 }
 
-h1, h2, h3, p {
+h1,h2,h3,p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-  }
+}
 
 header {
     background: #000000;
@@ -52,7 +52,7 @@ section {
     padding: 0;
     height: 102vh;
     background-size: cover;
-    width: 100%; 
+    width: 100%;
 }
 
 .letter {
@@ -63,47 +63,57 @@ section {
     text-align: center;
     color: white;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
-  }
-  
-  .letter h1 {
+}
+
+.letter h1 {
     font-size: 3rem;
     font-weight: 300;
     margin: 0;
-  }
-  
-  .letter p {
+}
+
+.letter p {
     font-size: 1.5rem;
     font-weight: 200;
     margin-top: 10px;
-  }
+}
 
-  .botao-cardapio {
+.botao-cardapio {
     display: inline-block;
     margin-top: 20px;
     padding: 12px 24px;
     background-color: white;
     color: #c04e2b;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
     font-size: 1rem;
     font-weight: 500;
     text-decoration: none;
     border-radius: 30px;
     transition: background-color 0.3s ease, color 0.3s ease;
-  }
-  
-  .botao-cardapio:hover {
+}
+
+.botao-cardapio:hover {
     background-color: #c04e2b;
     color: white;
-  }
-  
-  
-  .seção1 p {
+}
+
+
+.seção1 p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.2em; 
+    font-weight: 300;
+    font-size: 1.2em;
     margin-top: 20px;
 
-  }
+}
+
+.img1 {
+    width: 1420px;
+    display: block;
+    margin: 0 auto;  
+}
+
 #secao2 {
     background: #ffffff;
     display: grid;
@@ -121,6 +131,16 @@ section {
     text-align: center;
 }
 
+.titulo-cardapio {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #c04e2b;
+    margin: 20px auto;
+    width: 102%;
+}
+
 .cardapio img {
     width: 250px;
     height: auto;
@@ -130,77 +150,110 @@ section {
 
 .cardapio-menu {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); 
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
-    max-width: 800px; 
-    margin: 0 auto; 
+    max-width: 900px;
+    margin: 0 auto;
     padding: 40px 20px;
     text-align: center;
+}
+
+.cardapio h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+#secao3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    background: #000000;
+    margin: 0;
+    margin-left: 10px;
+    padding: 0;
+    height: 102vh;
+    background-size: cover;
+    width: 100%;
+    display: inline-block;
+    height: auto;
+}
+
+
+.img-frase {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+  }
+  
+  .img10 {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .sobreNos {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    padding: 10px;
+  }
+  
+.sobreNos h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+.sobreNos p {
+    font-size: 1.2em;
   }
 
-  .cardapio h3 {
-    font-size: 1.2em;
+#secao4 {
+    background: #ffffff;
+}
+
+.contato h1 {
+    text-align: center;
+    font-size: 2.5em;
     margin-bottom: 10px;
   }
   
+  .contato > p {
+    text-align: center;
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 30px;
+  }
 
+  
+  
+  #secao4 > .contato > p {
+    font-size: 0.95em;
+    font-weight: 300;
+  }
 
-
-#secao3 {
-    background: #ffffff;
-    background-color: #ffffff;
-    margin: 2%;
-}
-
-
-#secao4 {
-    background: #ffffff;
-    
-}
-
-#secao4 h2 {
-    color: #C84C05;
-    margin-bottom: 10px;
-    font-size: 28px;
-}
-
-#secao4 {
-    font-size: 18px;
-    margin-bottom: 20px;
-}
-
-form label {
+.negrito {
     font-weight: bold;
-    display: block;
-    margin-top: 10px;
-    color: #8a5a3b;
-}
+  }
 
-form input,
-form textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px;
-    border-radius: 10px;
-    font-size: 14px;
-    margin-top: 5px;
-}
-
-form button {
-    background-color: #000000;
-    color: #e6c2ac;
-    padding: 12px 24px;
-    border: none;
-    border-radius: 10px;
-    font-size: 16px;
-    margin-top: 20px;
-}
-
-form button:hover {
-    background-color: #000000;
-}
-
-
+  .dados {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px;
+    justify-content: center;
+    align-items: start;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
 footer {
     text-align: center;
     padding: 10px 0;
