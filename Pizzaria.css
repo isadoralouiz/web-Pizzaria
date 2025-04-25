@@ -261,15 +261,3 @@ footer {
     color: #8A6B5C;
     position: relative;
 }
-
-.botao {
-    background-color: #000000;
-    color: #f7aa76;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 12px;
-}
-
-button:hover {
-    background-color: #753b1a;
-}
