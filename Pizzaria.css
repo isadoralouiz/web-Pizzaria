@@ -213,6 +213,14 @@ section {
     font-size: 1.2em;
   }
 
+.botao{
+    background-color: #78aff8;
+    color: #000000;
+}
+.botao :hover{
+    background-color: #03234d;
+}
+
 #secao4 {
     background: #ffffff;
 }

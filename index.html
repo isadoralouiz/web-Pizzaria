@@ -110,6 +110,27 @@
         <p>Nossa pizzaria é dedicada a criar as melhores pizzas do mundo, com ingredientes frescos e receitas exclusivas
         </p>
 
+        <h2>Envie sua sugestão de pizza</h2>
+    
+        <form class="tipo-pizza">
+          <label for="tipoPizza">Escolha o tipo de pizza:</label><br>
+          <select id="tipoPizza" name="tipoPizza">
+            <option value="salgada">Pizza Salgada</option>
+            <option value="doce">Pizza Doce</option>
+          </select>
+        </form>
+    
+          <label for="Descrição da Pizza">Descrição da Pizza</label>
+          <input type="text" id="descricaoPizza" name="descricaoPizza" required><br>
+
+          <label for="Ingredientes obrigatórios">Ingredientes obrigatórios</label>
+          <input type="text" id="ingredientesO" name="ingredientesO" required><br>
+
+          <label for="Valor sugerido">Valor sugerido</label>
+          <input type="number" id="valorPizza" name="valorPizza" required><br>
+    
+
+          <button class="botao" type="submit">Enviar</button>
       </div>
     </div>
 
