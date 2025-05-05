@@ -109,7 +109,7 @@ section {
 }
 
 .img1 {
-    width: 1420px;
+    width: 1800px;
     display: block;
     margin: 0 auto;  
 }
@@ -213,17 +213,38 @@ section {
     font-size: 1.2em;
   }
 
-.botao{
+  .sugestao{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1.1em;
+    background: #201a1a;
+    padding: 12px 48px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.botao {
     background-color: #78aff8;
     color: #000000;
-}
-.botao :hover{
+    padding: 12px 24px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .botao:hover {
     background-color: #03234d;
-}
+    color: #ffffff;
+  }
 
 #secao4 {
     background: #ffffff;
 }
+
+
+
 
 .contato h1 {
     text-align: center;
