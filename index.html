@@ -124,9 +124,20 @@
           <label for="Descrição da Pizza">Descrição da Pizza</label>
           <input type="text" id="descricaoPizza" name="descricaoPizza" required><br>
 
-          <label for="Ingredientes obrigatórios">Ingredientes obrigatórios</label>
-          <input type="text" placeholder="Ex.: massa, queijo..." id="ingredientesO" name="ingredientesO" required><br>
-
+          <form>
+            <p>Selecione os ingredientes obrigatórios:</p>
+            <div class="checkbox-container">
+              <label><input type="checkbox" name="ingredientes" value="batata_palha"> Batata Palha</label>
+              <label><input type="checkbox" name="ingredientes" value="queijo"> Queijo</label>
+              <label><input type="checkbox" name="ingredientes" value="catupiry"> Catupiry</label>
+              <label><input type="checkbox" name="ingredientes" value="morango"> Morango</label>
+              <label><input type="checkbox" name="ingredientes" value="bacon"> Bacon</label>
+              <label><input type="checkbox" name="ingredientes" value="chocolate"> Chocolate</label>
+              <label><input type="checkbox" name="ingredientes" value="calabresa"> Calabresa</label>
+              <label><input type="checkbox" name="ingredientes" value="chocolate_branco"> Chocolate Branco</label>
+            </div>
+          </form>
+          
           <label for="Valor sugerido">Valor sugerido</label>
           <input type="number" placeholder="Ex.: 59,00" id="valorPizza" name="valorPizza" required><br>
 
