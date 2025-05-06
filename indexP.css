@@ -1,319 +1,316 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #000000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
 }
 
-h1,h2,h3,p {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+h1,
+h2,
+h3,
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
 }
 
 header {
-    background: #000000;
-    color: #EFE5DA;
-    padding: 10px 0;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+  background: #000000;
+  color: #efe5da;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 nav ul {
-    list-style: none;
-    text-align: center;
+  list-style: none;
+  text-align: center;
 }
 
 nav ul li {
-    display: inline;
-    margin: 15px;
+  display: inline;
+  margin: 15px;
 }
 
 nav ul li a {
-    color: #C84C05;
-    text-decoration: none;
+  color: #c84c05;
+  text-decoration: none;
 }
 
 section {
-    padding: 20px;
-    margin: 10px 0;
+  padding: 20px;
+  margin: 10px 0;
 }
 
 #secao1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    background: #000000;
-    margin: 0;
-    margin-left: 10px;
-    padding: 0;
-    height: 102vh;
-    background-size: cover;
-    width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  background: #000000;
+  margin: 0;
+  margin-left: 10px;
+  padding: 0;
+  height: 102vh;
+  background-size: cover;
+  width: 100%;
 }
 
 .letter {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
 }
 
 .letter h1 {
-    font-size: 3rem;
-    font-weight: 300;
-    margin: 0;
+  font-size: 3rem;
+  font-weight: 300;
+  margin: 0;
 }
 
 .letter p {
-    font-size: 1.5rem;
-    font-weight: 200;
-    margin-top: 10px;
+  font-size: 1.5rem;
+  font-weight: 200;
+  margin-top: 10px;
 }
 
 .botao-cardapio {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 12px 24px;
-    background-color: white;
-    color: #c04e2b;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 1rem;
-    font-weight: 500;
-    text-decoration: none;
-    border-radius: 30px;
-    transition: background-color 0.3s ease, color 0.3s ease;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: white;
+  color: #c04e2b;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .botao-cardapio:hover {
-    background-color: #c04e2b;
-    color: white;
+  background-color: #c04e2b;
+  color: white;
 }
 
-
 .seção1 p {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 1.2em;
-    margin-top: 20px;
-
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
+  margin-top: 20px;
 }
 
 .img1 {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
 }
 
 #secao2 {
-    background: #ffffff;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-    padding: 40px;
+  background: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  padding: 40px;
 }
 
 .cardapio {
-    background-color: #f4e7da;
-    border-radius: 20px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
-    transition: transform 0.2s ease-in-out;
-    text-align: center;
+  background-color: #f4e7da;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease-in-out;
+  text-align: center;
 }
 
 .titulo-cardapio {
-    text-align: center;
-    font-size: 2rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    color: #c04e2b;
-    margin: 20px auto;
-    width: 102%;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  color: #c04e2b;
+  margin: 20px auto;
+  width: 102%;
 }
 
 .cardapio img {
-    width: 250px;
-    height: auto;
-    border-radius: 12px;
-    margin-bottom: 10px;
+  width: 250px;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 10px;
 }
 
 .cardapio-menu {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 40px 20px;
-    text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
 }
 
 .cardapio h3 {
-    font-size: 1.2em;
-    margin-bottom: 10px;
+  font-size: 1.2em;
+  margin-bottom: 10px;
 }
 
 #secao3 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    background: #000000;
-    margin: 0;
-    margin-left: 10px;
-    padding: 0;
-    height: 102vh;
-    background-size: cover;
-    width: 100%;
-    display: inline-block;
-    height: auto;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  background: #000000;
+  margin: 0;
+  margin-left: 10px;
+  padding: 0;
+  height: 102vh;
+  background-size: cover;
+  width: 100%;
+  display: inline-block;
+  height: auto;
 }
 
-
 .img-frase {
-    position: relative;
-    width: 100%;
-    display: inline-block;
-  }
-  
-  .img10 {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-  
-  .sobreNos {
-    position: absolute;
-    top: 50%; 
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
-    padding: 10px;
-  }
-  
+  position: relative;
+  width: 100%;
+  display: inline-block;
+}
+
+.img10 {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.sobreNos {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+  height: auto;
+  padding: 40px 0;
+}
+
 .sobreNos h1 {
-    font-size: 3rem;
-    font-weight: 300;
-    margin: 0;
+  font-size: 3rem;
+  font-weight: 300;
+  margin: 0;
 }
 
 .sobreNos p {
-    font-size: 1.2em;
-  }
+  font-size: 1.2em;
+}
 
-  .sugestao{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 1.1em;
-    background: #000000;
-    border-radius: 10px;
-    text-align: center;
-    display: block;           
-    width: 100%;              
-    padding: 10px;         
-    margin-bottom: 15px;     
-    border: 1px solid #c04e2b;     
+.sugestao {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 1.1em;
+  background: #000000;
+  border-radius: 10px;
+  text-align: center;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #c04e2b;
 }
 
 .checkbox-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    gap: 10px 20px;               
-    max-width: 400px;
-    margin: 0 auto;
-    font-family: 'Montserrat', sans-serif;
-  }
-  
-  .checkbox-container label {
-    display: flex;
-    align-items: center;
-    font-size: 0.9em; 
-    font-weight: 300;
-  }
-  
-  .checkbox-container input[type="checkbox"] {
-    margin-right: 8px;
-    transform: scale(1.2);
-    accent-color: #c04e2b;
-  }
-
-.botao {
-    background-color: #78aff8;
-    color: #000000;
-    padding: 12px 24px;
-    font-size: 1.1em;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .botao:hover {
-    background-color: #03234d;
-    color: #ffffff;
-  }
-
-#secao4 {
-    background: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
 }
 
+.checkbox-container label {
+  display: flex;
+  align-items: center;
+  font-size: 0.9em;
+  font-weight: 300;
+}
 
+.checkbox-container input[type="checkbox"] {
+  margin-right: 8px;
+  transform: scale(1.2);
+  accent-color: #c04e2b;
+}
 
+.botao {
+  background-color: #78aff8;
+  color: #000000;
+  padding: 12px 24px;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+  background-color: #03234d;
+  color: #ffffff;
+}
+
+#secao4 {
+  background: #ffffff;
+}
 
 .contato h1 {
-    text-align: center;
-    font-size: 2.5em;
-    margin-bottom: 10px;
-  }
-  
-  .contato > p {
-    text-align: center;
-    font-size: 1.2em;
-    color: #333;
-    margin-bottom: 30px;
-  }
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
 
-  
-  
-  #secao4 > .contato > p {
-    font-size: 0.95em;
-    font-weight: 300;
-  }
+.contato > p {
+  text-align: center;
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+#secao4 > .contato > p {
+  font-size: 0.95em;
+  font-weight: 300;
+}
 
 .negrito {
-    font-weight: bold;
-  }
+  font-weight: bold;
+}
 
-  .dados {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 20px;
-    justify-content: center;
-    align-items: start;
-    text-align: left;
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  
+.dados {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: start;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 footer {
-    text-align: center;
-    padding: 10px 0;
-    background: #333;
-    color: #8A6B5C;
-    position: relative;
+  text-align: center;
+  padding: 10px 0;
+  background: #333;
+  color: #8a6b5c;
+  position: relative;
 }
